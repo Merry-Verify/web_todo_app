@@ -9,3 +9,5 @@ ENV/
 
 # Local storage and sensitive data
 .dataSources.local.xml
+/.name
+/workspace.xml
