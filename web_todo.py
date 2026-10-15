@@ -56,6 +56,6 @@ st.text_input(label="",
               on_change=update_list,
               key="input_list")
 
-st.session_state
+# st.session_state
 
 
