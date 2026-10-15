@@ -39,7 +39,7 @@ def update_list():
 task_list_object=hf.get_todos()
 
 st.title("My Todo App")
-st.subheader("Task List ")
+st.subheader("Task List")
 st.write("This app increase productivity")
 
 for index, task in enumerate(task_list_object):
@@ -57,3 +57,5 @@ st.text_input(label="",
               key="input_list")
 
 st.session_state
+
+
